@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: lovely-bot
+    name: shitizosintbot
     env: python
     buildCommand: ""
     startCommand: bash start.sh
@@ -12,4 +12,5 @@ services:
       - key: BOT_TOKEN
         sync: false
       - key: CHANNEL_USERNAME
+
         sync: false
